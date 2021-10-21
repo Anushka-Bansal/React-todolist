@@ -11,10 +11,11 @@ export class Navii extends Component {
         this.setState({isAuth: false})
         localStorage.clear();
     }
+
     render() {  
        const email = localStorage.getItem("email");
         return (
-           <>   
+           <> 
             <Box component="main" sx={{ display: 'flex' }}>
                 <AppBar position="static" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
                 <Toolbar>

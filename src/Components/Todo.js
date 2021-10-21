@@ -23,7 +23,15 @@ export class Todo extends Component {
         return (
             <React.Fragment>
                 {this.children}
-                <td style={ this.state.completed ? { textDecoration:'line-through'} : {}}>{this.props.todo.name}</td>
+                <td 
+                style={ this.state.completed ? { textDecoration:'line-through'} : {}}>
+                    {/* Setting the priority of a task */}
+                    {this.props.todo.name==1 ? 'lowest': 
+                    this.props.todo.name==2 ?'low':
+                    this.props.todo.name==3 ?'average':
+                    this.props.todo.name==4 ?'high' : 'highest'}
+                    </td>
+
                 <td style={ this.state.completed ? { textDecoration:'line-through'} : {}}>{this.props.todo.desc}</td>
                 <td><Button type="button" variant="contained" color="success" onClick={this.editData}><i className="fa fa-edit"></i></Button></td>
                 <td><Button type="button" variant="contained" color="error"  onClick={()=>this.props.delete(this.props.todo.id)}><i className="fa fa-trash-o"></i></Button></td>
