@@ -1,0 +1,49 @@
+{
+  "Users": [
+    {
+      "fname": "Anushka",
+      "lname": "Bansal",
+      "uname": "AnuBan",
+      "email": "anushka.bansal@neosoftmail.com",
+      "password": "Anu@1234",
+      "confirm": "Anu@1234",
+      "id": 9
+    },
+    {
+      "fname": "Neha",
+      "lname": "Deore",
+      "uname": "NehaDeore",
+      "email": "n@gmail.com",
+      "password": "Bansal@1234",
+      "confirm": "Bansal@1234",
+      "id": 10
+    },
+    {
+      "fname": "Komal",
+      "lname": "Patel",
+      "uname": "KomPat",
+      "email": "K@gmail.com",
+      "password": "Anu@1234",
+      "confirm": "Anu@1234",
+      "id": 11
+    },
+    {
+      "fname": "Shivam",
+      "lname": "Agrawal",
+      "uname": "AgraShiv",
+      "email": "s@gmail.com",
+      "password": "Anu@1234",
+      "confirm": "Anu@1234",
+      "id": 12
+    },
+    {
+      "fname": "Karishma",
+      "lname": "Raipure",
+      "uname": "KarRai",
+      "email": "ka@gmail.com",
+      "password": "Bansal@1234",
+      "confirm": "Bansal@1234",
+      "id": 13
+    }
+  ]
+}
